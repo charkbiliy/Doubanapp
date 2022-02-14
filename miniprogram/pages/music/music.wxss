@@ -1,0 +1,36 @@
+/* pages/music.wxss */
+.big{
+  width:600rpx;
+  height: 600rpx;
+  background-color: black;
+  margin: 10rpx auto;
+  border-radius: 50%;
+}
+.turningimg{
+  width:400rpx;
+  height: 400rpx;
+  margin: 100rpx auto;
+  background-color: red;
+  border-radius: 50%;
+}
+.turningimg image{
+  width:400rpx;
+  height: 400rpx;
+  border-radius: 50%;
+  animation: myrotate 10s linear infinite;
+}
+@keyframes myrotate{
+  from{transform: rotate(0);}
+  to{transform: rotate(360deg);}
+}
+.icon{
+  width:200rpx;
+  height: 100rpx;
+  margin: 200rpx auto;
+  background-color: darkgray;
+  text-align: center;
+}
+.icon image{
+  width:100rpx;
+  height: 100rpx;
+}

@@ -1,0 +1,10 @@
+<!--pages/my/my.wxml-->
+
+<image src="../../images/微信图片_20190528153124.jpg" alt=""/>
+<view>
+  <text wx:for="{{list}}" bindtap="change" data-id="{{index}}" class="{{index==num?'current':''}}">{{item}}</text>
+</view>
+<view>
+  <text wx:for="{{menu}}" wx:if="{{index==num}}">{{item}}内容</text>
+
+</view>

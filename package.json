@@ -1,0 +1,17 @@
+{
+  "name": "weixinapp",
+  "version": "1.0.0",
+  "description": "这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：",
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "@vant/weapp": "^1.10.0"
+  },
+  "devDependencies": {
+    "miniprogram-api-typings": "^3.4.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

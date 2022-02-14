@@ -1,0 +1,22 @@
+<!--pages/music.wxml-->
+<view class="big">
+  <view class="turningimg">
+  <image src="../../images/微信图片_20190528153124.jpg" style="animation-play-state:{{turning}};"></image>
+  </view>
+  <view class="icon">
+    <image src="../../images/播放.png" alt="" data-id="1" bindtap="play" style="display:{{block}};" />
+    <image src="../../images/暂停.png" alt="" data-id="2" bindtap="pause" style="display:{{none}};"/>
+  </view>
+</view>
+<view>
+  <text bindtap="save" >djdjdj</text>
+</view>
+<view>
+  <text bindtap="select" >select</text>
+</view>
+<view>
+  <text bindtap="update" >update</text>
+</view>
+<!-- <view>
+  <text bindtap="delete" >delete</text> 
+</view> -->

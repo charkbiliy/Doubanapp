@@ -1,0 +1,18 @@
+<!--pages/zone/zone.wxml-->
+<text style="text-align: center;">朋友圈</text>
+头像
+<image src="{{picsrc}}" style="width: 200rpx;height: 200rpx;"></image>
+<button bindtap="upload">上传头像</button>
+<button bindtap="sendnews">发表朋友圈</button>
+
+<view wx:for="{{imglist}}" data-id="{{index}}">
+  <image src="{{item}}" style="width: 400rpx;height: 200rpx;"></image>
+  <text bindtap="deletepic" data-id="{{index}}">删除</text>
+</view>
+
+<!-- 获取用户信息 -->
+<button wx:if="{{hasUserInfo}}" bindtap="getUserProfile" >获取用户信息</button>
+<text bindtap="fn">云函数</text>
+<video wx:for="{{videolist}}"  initial-time='0.01' data-id="{{index}}" src="{{item}}"></video>
+
+<van-button type="primary">按钮</van-button>

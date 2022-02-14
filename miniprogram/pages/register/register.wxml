@@ -1,0 +1,11 @@
+<!--pages/register/register.wxml-->
+<text style="text-align: center;">注册界面</text>
+<view>
+<form action="" bindsubmit="reg">
+   <text>用户名</text>
+   <input type="text" placeholder="请输入用户名" name="uname"/>
+   <text>密码</text>
+   <input type="text" placeholder="请输入密码" name="upass" />
+<button form-type="submit">注册</button>
+</form>
+</view>

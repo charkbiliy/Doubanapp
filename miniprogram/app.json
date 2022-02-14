@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/zone/zone",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/music/music",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/getOpenId/index",
+    "pages/getMiniProgramCode/index",
+    "pages/deployService/index",
+    "pages/createCollection/index",
+    "pages/uploadFile/index",
+    "pages/selectRecord/index",
+    "pages/updateRecord/index",
+    "pages/updateRecordResult/index",
+    "pages/updateRecordSuccess/index",
+    "pages/sumRecord/index",
+    "pages/sumRecordResult/index"
+
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#6B8E23",
+    "navigationBarTitleText": "大喵的小店",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/music/music",
+        "text": "首页"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
